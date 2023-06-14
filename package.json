@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test"
+    "test": "cucumber-js src/test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.35.0"
+    "@playwright/test": "^1.35.0",
+    "multiple-cucumber-html-reporter": "^3.4.0"
   },
   "dependencies": {
     "@cucumber/cucumber": "^9.1.2",

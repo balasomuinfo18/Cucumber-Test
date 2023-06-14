@@ -8,6 +8,11 @@
         "dryRun":true,
         "require":[
             "src/test/steps/*.js"
+        
+        ],
+        "format":[
+"html:test-results/cucumber-report.html",
+"json:test-results/cucumber-report.json"
         ]
 
 }
